@@ -24,6 +24,7 @@ then
 	chmod +x $SANDWICH/source/slice
 
 	wget https://github.com/SandwichOS/slice/releases/download/test1/slice.slicepkg -O $SANDWICH/source/packages/slice.slicepkg
+	wget https://github.com/SandwichOS/kernel/releases/download/test1/linux.slicepkg -O $SANDWICH/source/packages/linux.slicepkg
 	wget https://github.com/SandwichOS/core-packages/releases/download/test1/glibc.slicepkg -O $SANDWICH/source/packages/glibc.slicepkg
 	wget https://github.com/SandwichOS/core-packages/releases/download/test1/busybox.slicepkg -O $SANDWICH/source/packages/busybox.slicepkg
 	#wget https://github.com/SandwichOS/core-packages/releases/download/test1/coreutils.slicepkg -O $SANDWICH/source/packages/coreutils.slicepkg
